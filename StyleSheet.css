@@ -1,0 +1,112 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(180deg, #143743, #4d6d53, #9c9e4a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.Redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+#Bienvenida,
+#wifi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+#Logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.Titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Parrafo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#Icon1 {
+    width: 65px;
+    height: 65px;
+}
+
+#Icon2 {
+    width: 70px;
+    height: 70px;
+}
+
+#Icon3 {
+    width: 55px;
+    height: 55px;
+}
+
+#Icon4 {
+    width: 55px;
+    height: 55px;
+}
+
+.red-social {
+    display: inline-block;
+    transition: transform .3s;
+}
+
+.red-social img {
+    gap: 40px;
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.red-social:hover {
+    transform: scale(1.08);
+}
+
+.red-social:active {
+    transform: scale(.95);
+}
+
+#wifi {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.aviso {
+    font-size: 0.9rem;
+    opacity: 0.85;
+}

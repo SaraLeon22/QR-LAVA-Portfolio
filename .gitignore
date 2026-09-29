@@ -1,0 +1,11 @@
+node_modules/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+QR-Papi.esproj      
+eslint.config.js    
+package.json        
+package-lock.json   
+CHANGELOG.md
